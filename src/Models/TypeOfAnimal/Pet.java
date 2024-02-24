@@ -22,4 +22,6 @@ public class Pet extends AbstractAnimal {
     public void getCharacter() {
         System.out.println("Дружелюбный");;
     }
+
+
 }
