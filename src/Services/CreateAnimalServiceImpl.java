@@ -10,9 +10,9 @@ public class CreateAnimalServiceImpl extends CreateAnimalService {
     public void createPet(String breed, String name, double cost, String character) {
         int counter = 1;
         do {
-            new Dog(breed, name, cost, character);
+            new Dog(breed, name + counter, cost, character);
+            System.out.println("Порода " + breed + ", имя " + name + counter + ", цена " + cost + ", характер " + character);
             counter++;
-            System.out.println("Порода " + breed + ", имя " + name + ", цена " + cost + ", характер " + character);
         }
         while (counter <= 10);
 
@@ -22,8 +22,8 @@ public class CreateAnimalServiceImpl extends CreateAnimalService {
     public void createPet(String breed, String name, double cost, String character, int countOfAnimal) {
 
         for (int i = 1; i <= countOfAnimal; i++) {
-            new Wolf(breed, name, cost, character);
-            System.out.println("Порода " + breed + ", имя " + name + ", цена " + cost + ", характер " + character);
+            new Wolf(breed, name+i, cost, character);
+            System.out.println("Порода " + breed + ", имя " + name + i + ", цена " + cost + ", характер " + character);
         }
     }
 }

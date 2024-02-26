@@ -7,9 +7,9 @@ public class CreateAnimalService {
 
         int counter = 1;
         while (counter <= 10) {
-            new Cat(breed, name, cost, character);
-            counter ++;
-            System.out.println("Порода " + breed + ", имя " + name + ", цена " + cost +", характер " + character);
+            new Cat(breed, name+counter, cost, character);
+            System.out.println("Порода " + breed + ", имя " + name+counter + ", цена " + cost +", характер " + character);
+            counter++;
         }
     }
 

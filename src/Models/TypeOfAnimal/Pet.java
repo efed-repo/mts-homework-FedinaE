@@ -10,9 +10,6 @@ public class Pet extends AbstractAnimal {
         this.character = character;
     }
 
-    public boolean isLeaveAtHome() {
-        return true;
-    }
 
     public void playWithToy(){
         System.out.println("Люблю играть");
