@@ -1,6 +1,5 @@
 package Models;
 
-import Models.Animal;
 
 public abstract class AbstractAnimal implements Animal {
 
@@ -10,16 +9,19 @@ public abstract class AbstractAnimal implements Animal {
     protected String character;
 
 
+    @Override
+    public void getBreed() {
+    }
 
     @Override
-    public void getBreed() {}
+    public void getName() {
+    }
 
     @Override
-    public void getName() {}
+    public void getCost() {
+    }
 
     @Override
-    public void getCost() {}
-
-    @Override
-    public void getCharacter() {}
+    public void getCharacter() {
+    }
 }

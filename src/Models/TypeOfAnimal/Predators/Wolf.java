@@ -8,11 +8,7 @@ public class Wolf extends Predator {
     }
 
     @Override
-    public void eatMeat(){
+    public void eatMeat() {
         System.out.println("Я ем мясо зайца");
-    }
-
-    public void getSound(){
-        System.out.println("аууууууу");
     }
 }

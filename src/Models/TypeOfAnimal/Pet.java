@@ -11,14 +11,13 @@ public class Pet extends AbstractAnimal {
     }
 
 
-    public void playWithToy(){
+    public void playWithToy() {
         System.out.println("Люблю играть");
     }
 
     @Override
     public void getCharacter() {
-        System.out.println("Дружелюбный");;
+        System.out.println("Дружелюбный");
     }
-
 
 }

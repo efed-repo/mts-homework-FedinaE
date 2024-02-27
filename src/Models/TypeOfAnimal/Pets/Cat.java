@@ -9,11 +9,7 @@ public class Cat extends Pet {
 
     @Override
     public void playWithToy() {
-        System.out.println("Люблю играть с мышкой");;
-    }
-
-    public void sharpenClaws(){
-        System.out.println("Цап-царап");
+        System.out.println("Люблю играть с мышкой");
     }
 
 }

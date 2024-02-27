@@ -11,12 +11,13 @@ public class Predator extends AbstractAnimal {
         this.character = character;
     }
 
-    public void eatMeat(){
+    public void eatMeat() {
         System.out.println("Я ем мясо");
     }
 
     @Override
     public void getCharacter() {
-        System.out.println("Опасный!");;
+        System.out.println("Опасный!");
+        ;
     }
 }

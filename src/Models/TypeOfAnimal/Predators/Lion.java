@@ -8,7 +8,7 @@ public class Lion extends Predator {
     }
 
     @Override
-    public void eatMeat(){
+    public void eatMeat() {
         System.out.println("Я ем мясо зебры");
     }
 }
