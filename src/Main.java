@@ -6,12 +6,7 @@ public class Main {
 
 
         CreateAnimalServiceImpl createAnimalServiceImpl = new CreateAnimalServiceImpl();
-        CreateAnimalService createAnimalService = new CreateAnimalService() {
-            @Override
-            public void createPet(String breed, String name, double cost, String character) {
-                CreateAnimalService.super.createPet(breed, name, cost, character);
-            }
-        };
+        CreateAnimalService createAnimalService = new CreateAnimalServiceImpl();
 
         createAnimalService.createPet("Котик", "Пушок", 6.2, "Добрый");
         createAnimalServiceImpl.createPet("Песик", "Шарик", 10.0, "Дружелюбный");
